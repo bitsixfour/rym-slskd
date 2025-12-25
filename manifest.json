@@ -1,0 +1,25 @@
+{
+   "description": "Personal project to make RYM cooler",
+   "manifest_version": 2,
+   "version": "1.0",
+   "permissions": [
+      "storage",
+      "activeTab",
+      "background",
+      "http://192.168.1.20:8686/*"
+   ],
+   "background": {
+      "scripts": ["background.js"]
+   },
+   "browser_action": {
+      "default_icon": "content/sonemic.png",
+      "default_title": "RYMUtils",
+      "default_popup": "content/ui.html"
+   },
+   "content_scripts": [ 
+      {
+	 "matches": ["*//rateyourmusic.com/*"],
+	 "js": ["content.js"]
+      }
+   ]
+}
