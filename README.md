@@ -2,7 +2,7 @@
 Random stuff to make Rate Your Music (RYM) cooler
 
 # Downloader
-You need to use the slskd API in order for this to work. This requires a server. There are niche use cases where SLSK does not have an album. If you can't find an album, you would likely have to go on RED and download it manually.
+You need to use the slskd API in order for this to work. This requires a server. There are niche use cases where SLSK does not have an album. If you can't find an album, you would likely have to go on RED and download it manually anyways, as I don't see usenet or any niche website really having stuff other than gatekeepy PTs like RED.
 
 # Future plans  
 * Theme RYM using album cover data for that specific album page
