@@ -10,5 +10,5 @@ You need to use the slskd API in order for this to work. This requires a server.
 
 
 # Other
-Add me on RYM: https://rateyourmusic.com/~wnguyen7
-This is mostly just a proof-of-concept, but I expect you to atleast know what you're doing (I don't) as this requires using slskd. It's under heavy WIP as of right now.
+Add me on RYM: https://rateyourmusic.com/~wnguyen7.
+This is mostly just a proof-of-concept, but I expect you to atleast know what you're doing (I don't) as this requires using slskd. WIP.
