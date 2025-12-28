@@ -1,0 +1,20 @@
+{
+   "name": "rym-slskd",
+   "description": "Personal project to make RYM cooler",
+   "manifest_version": 2,
+   "version": "1.0",
+   "permissions": [
+      "storage",
+      "background",
+      "webRequest",
+      "http://192.168.1.20:5030/*"
+   ],
+   "browser_action": {
+      "default_icon": "content/sonemic.png",
+      "default_title": "RYMUtils",
+      "default_popup": "content/ui.html"
+   },
+   "content_scripts": [
+      { "matches": ["https://rateyourmusic.com/release/*"], "js": ["background.js", "content.js", "slskd.js"] }
+   ]
+}
